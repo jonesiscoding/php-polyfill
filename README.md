@@ -6,6 +6,8 @@ friendly for legacy applications.
 Many polyfill functions are from [symfony/polyfills](https://github.com/symfony/polyfill) and are attributed in the 
 PHPdoc to their contributors.
 
+## Polyfills Included
+
 | Name              | Type      | PHP Version                                                     |
 |-------------------|-----------|-----------------------------------------------------------------|
 | `array_key_first` | Function  | [7.3](https://php.net/array_key_first)                          |
@@ -19,5 +21,13 @@ PHPdoc to their contributors.
 | `ValueErrror`     | Class     | [8.0](https://php.net/valueerror)                               |
 | `array_is_list`   | Function  | [8.1](https://php.net/array_is_list)                            |
 | `json_validate`   | Function  | [8.3](https://www.php.net/manual/en/function.json-validate.php) |
-| `array_first`     | Function  | [8.5](https://www.php.net/manual/en/function.array-first.php) |
-| `array_last`      | Function  | [8.5](https://www.php.net/manual/en/function.array-last.php) |
+| `array_first`     | Function  | [8.5](https://www.php.net/manual/en/function.array-first.php)   |
+| `array_last`      | Function  | [8.5](https://www.php.net/manual/en/function.array-last.php)    |
+
+## Versioning
+
+The minor version indicates the latest PHP version _from_ which some functionality is included. 
+
+The major version can be used to match compatibility _with_ a specific PHP version:
+
+* All 1.x releases will maintain compatibility with PHP 7.0
