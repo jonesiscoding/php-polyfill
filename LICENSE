@@ -1,5 +1,8 @@
-MIT License
 
+Original Library (symfony/polyfill)
+Copyright (c) 2015-present Fabien Potencier
+
+This Implementation & Documentation (jonesiscoding/php-polyfill)
 Copyright (c) 2026 AMJones
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

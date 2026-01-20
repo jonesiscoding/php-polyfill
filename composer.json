@@ -1,0 +1,36 @@
+{
+  "name": "deviscoding/php-polyfill",
+  "description": "PHP Polyfill functions, interfaces, and classes in a PHP 7.0 friendly library for legacy applications.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "AMJones",
+      "email": "am@jonesiscoding.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "src/Php73/array_key_first.php",
+      "src/Php73/array_key_last.php",
+      "src/Php73/is_countable.php",
+      "src/Php80/get_debug_type.php",
+      "src/Php80/str_contains.php",
+      "src/Php80/str_ends_with.php",
+      "src/Php80/str_starts_with.php",
+      "src/Php80/Stringable.php",
+      "src/Php80/ValueError.php",
+      "src/Php81/array_is_list.php",
+      "src/Php83/json_validate.php",
+      "src/Php85/array_first.php",
+      "src/Php85/array_last.php"
+    ]
+  },
+  "version": "1.85",
+  "require": {
+    "php": ">=7.0",
+    "ext-json": "*",
+    "ext-intl": "*",
+    "ext-simplexml": "*"
+  }
+}
