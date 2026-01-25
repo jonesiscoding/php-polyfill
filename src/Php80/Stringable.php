@@ -2,7 +2,6 @@
 
 /** @noinspection PhpMultipleClassDeclarationsInspection */
 
-namespace DevCoding\ValueObject\Polyfills\Php80;
 if (\PHP_VERSION_ID < 80000)
 {
   /**
