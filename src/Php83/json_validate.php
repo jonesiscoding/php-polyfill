@@ -30,7 +30,7 @@ if (!function_exists('json_validate'))
       $err = 'json_validate(): Argument #2 ($depth) must be greater than 0';
     }
 
-    if (empty($err) && $depth > self::JSON_MAX_DEPTH)
+    if (empty($err) && $depth > $jsonMaxDepth)
     {
       $err = sprintf('json_validate(): Argument #2 ($depth) must be less than %d', $jsonMaxDepth);
     }
